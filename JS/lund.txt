@@ -1,0 +1,653 @@
+Here are 40 IMPORTANT DSA MCQs strictly based on your given syllabus.
+These are exam-oriented, conceptual + tricky, suitable for college / university DSA exams.
+
+⸻
+
+📘 DSA MCQs (40 Questions)
+
+⸻
+
+🔹 1. Prefix Sum & Two Pointers
+
+Q1. What is the main advantage of using a prefix sum array?
+A. Faster sorting
+B. Faster subarray sum queries
+C. Reduced memory usage
+D. Faster searching
+
+✅ Ans: B
+
+⸻
+
+Q2. Prefix sum array creation takes:
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n²)
+
+✅ Ans: C
+
+⸻
+
+Q3. Subarray sum using prefix sum is calculated in:
+A. O(n)
+B. O(log n)
+C. O(1)
+D. O(n²)
+
+✅ Ans: C
+
+⸻
+
+Q4. Two-pointer technique is most effective when the array is:
+A. Random
+B. Sorted
+C. Reversed
+D. Multidimensional
+
+✅ Ans: B
+
+⸻
+
+Q5. Best Time to Buy and Sell Stock uses which approach?
+A. DP
+B. Greedy
+C. Two pointers
+D. Recursion
+
+✅ Ans: B
+
+⸻
+
+🔹 2. String Algorithms
+
+Q6. A substring must be:
+A. Non-continuous
+B. Continuous
+C. Unique
+D. Sorted
+
+✅ Ans: B
+
+⸻
+
+Q7. A subsequence:
+A. Must be continuous
+B. Can skip characters
+C. Must be sorted
+D. Must be unique
+
+✅ Ans: B
+
+⸻
+
+Q8. Number of substrings in a string of length n is:
+A. n²
+B. n(n+1)/2
+C. 2ⁿ
+D. n!
+
+✅ Ans: B
+
+⸻
+
+Q9. What does str.find() return if substring is not found?
+A. None
+B. -1
+C. 0
+D. Error
+
+✅ Ans: B
+
+⸻
+
+Q10. Which method splits a string into a list?
+A. join()
+B. replace()
+C. split()
+D. find()
+
+✅ Ans: C
+
+⸻
+
+🔹 3. Kadane’s Algorithm
+
+Q11. Kadane’s algorithm is used to find:
+A. Longest subsequence
+B. Maximum subarray sum
+C. Minimum element
+D. Maximum product
+
+✅ Ans: B
+
+⸻
+
+Q12. Time complexity of Kadane’s Algorithm is:
+A. O(n²)
+B. O(n log n)
+C. O(n)
+D. O(1)
+
+✅ Ans: C
+
+⸻
+
+Q13. Kadane’s algorithm works by:
+A. Sorting
+B. Backtracking
+C. Dynamic programming
+D. Recursion
+
+✅ Ans: C
+
+⸻
+
+Q14. Kadane’s algorithm fails when:
+A. Array has zeros
+B. All elements are negative (without modification)
+C. Array is sorted
+D. Array is large
+
+✅ Ans: B
+
+⸻
+
+🔹 4. Sorting Algorithms
+
+Q15. Which sorting algorithm is stable?
+A. Selection Sort
+B. Bubble Sort
+C. Heap Sort
+D. Quick Sort
+
+✅ Ans: B
+
+⸻
+
+Q16. Best case time complexity of Insertion Sort:
+A. O(n²)
+B. O(n log n)
+C. O(n)
+D. O(1)
+
+✅ Ans: C
+
+⸻
+
+Q17. Selection Sort performs how many swaps in worst case?
+A. O(n²)
+B. O(n)
+C. O(log n)
+D. Depends on input
+
+✅ Ans: B
+
+⸻
+
+Q18. Which sorting algorithm is best for nearly sorted arrays?
+A. Bubble Sort
+B. Insertion Sort
+C. Selection Sort
+D. Merge Sort
+
+✅ Ans: B
+
+⸻
+
+🔹 5. Binary Search & Variations
+
+Q19. Binary search requires the array to be:
+A. Unique
+B. Sorted
+C. Small
+D. Continuous
+
+✅ Ans: B
+
+⸻
+
+Q20. Time complexity of binary search is:
+A. O(n)
+B. O(n log n)
+C. O(log n)
+D. O(1)
+
+✅ Ans: C
+
+⸻
+
+Q21. Binary search divides the search space into:
+A. Three parts
+B. Two parts
+C. Four parts
+D. Random parts
+
+✅ Ans: B
+
+⸻
+
+Q22. Searching in rotated sorted array uses:
+A. Linear search
+B. Modified binary search
+C. Hashing
+D. Two pointers
+
+✅ Ans: B
+
+⸻
+
+Q23. Finding square root of a number optimally uses:
+A. DFS
+B. BFS
+C. Binary search
+D. Greedy
+
+✅ Ans: C
+
+⸻
+
+🔹 6. Array Manipulation
+
+Q24. Minimum swaps to sort an array depends on:
+A. Frequency
+B. Number of inversions
+C. Cycles in permutation
+D. Prefix sum
+
+✅ Ans: C
+
+⸻
+
+Q25. Minimum swaps problem is solved in:
+A. O(n²)
+B. O(n log n)
+C. O(n)
+D. O(log n)
+
+✅ Ans: B
+
+⸻
+
+🔹 7. Linked List
+
+Q26. Insertion at beginning of singly linked list takes:
+A. O(n)
+B. O(log n)
+C. O(1)
+D. O(n²)
+
+✅ Ans: C
+
+⸻
+
+Q27. Deleting last node in singly linked list takes:
+A. O(1)
+B. O(log n)
+C. O(n)
+D. O(n²)
+
+✅ Ans: C
+
+⸻
+
+Q28. Middle of linked list is found using:
+A. Stack
+B. Recursion
+C. Slow & fast pointers
+D. Hashing
+
+✅ Ans: C
+
+⸻
+
+Q29. Floyd’s cycle detection algorithm uses:
+A. Stack
+B. Hash map
+C. Two pointers
+D. Sorting
+
+✅ Ans: C
+
+⸻
+
+🔹 8. Linked List Types
+
+Q30. Doubly linked list allows traversal:
+A. Forward only
+B. Backward only
+C. Both directions
+D. Circular only
+
+✅ Ans: C
+
+⸻
+
+Q31. Major disadvantage of doubly linked list is:
+A. Slower traversal
+B. More memory usage
+C. Complex deletion
+D. No backward traversal
+
+✅ Ans: B
+
+⸻
+
+Q32. Circular linked list is commonly used in:
+A. Trees
+B. CPU scheduling
+C. Sorting
+D. Searching
+
+✅ Ans: B
+
+⸻
+
+🔹 9. Hashing Techniques
+
+Q33. Average time complexity of HashMap operations:
+A. O(n)
+B. O(log n)
+C. O(1)
+D. O(n log n)
+
+✅ Ans: C
+
+⸻
+
+Q34. Hash collision occurs when:
+A. Hash table is full
+B. Two keys map to same index
+C. Key is null
+D. Table is empty
+
+✅ Ans: B
+
+⸻
+
+Q35. Set is preferred over list when:
+A. Order matters
+B. Duplicates are allowed
+C. Uniqueness is required
+D. Indexing is needed
+
+✅ Ans: C
+
+⸻
+
+Q36. Which data structure does NOT allow duplicates?
+A. Array
+B. List
+C. Set
+D. Dictionary
+
+✅ Ans: C
+
+⸻
+
+🔹 Mixed Concepts
+
+Q37. Which technique is best for fixed window problems?
+A. Two pointers
+B. Sliding window
+C. Hashing
+D. Recursion
+
+✅ Ans: B
+
+⸻
+
+Q38. Space complexity of prefix sum array is:
+A. O(1)
+B. O(n)
+C. O(log n)
+D. O(n²)
+
+✅ Ans: B
+
+⸻
+
+Q39. Which algorithm uses divide and conquer?
+A. Kadane
+B. Binary Search
+C. Bubble Sort
+D. Insertion Sort
+
+✅ Ans: B
+
+⸻
+
+Q40. Which data structure is best for fast lookups?
+A. Array
+B. Linked List
+C. Hash Map
+D. Stack
+
+✅ Ans: C
+
+
+
+
+Got it 👍
+Below are SHORT DSA QUESTIONS WITH DIRECT ANSWERS, written exactly in exam-ready language (2–3 lines max).
+You can memorize these for written exams, viva, and interviews.
+
+⸻
+
+📘 DSA SHORT QUESTIONS WITH ANSWERS
+
+⸻
+
+🔹 Prefix Sum & Two Pointers
+
+Q1. What is a prefix sum array?
+Ans: A prefix sum array stores the cumulative sum of elements such that each index contains the sum of all elements before it including itself.
+
+⸻
+
+Q2. Why is prefix sum used?
+Ans: It is used to answer range or subarray sum queries in constant time after preprocessing.
+
+⸻
+
+Q3. How do you find subarray sum using prefix sum?
+Ans: Subarray sum from index l to r is calculated as prefix[r] − prefix[l−1].
+
+⸻
+
+Q4. What is the time complexity of building a prefix sum array?
+Ans: O(n)
+
+⸻
+
+Q5. When is the two-pointer technique used?
+Ans: It is used when the array or list is sorted to reduce time complexity from O(n²) to O(n).
+
+⸻
+
+Q6. What is the time complexity of Two Sum II?
+Ans: O(n)
+
+⸻
+
+🔹 String Algorithms
+
+Q7. What is a substring?
+Ans: A substring is a contiguous sequence of characters taken from a string.
+
+⸻
+
+Q8. What is a subsequence?
+Ans: A subsequence is a sequence derived by deleting zero or more characters without changing order.
+
+⸻
+
+Q9. Difference between substring and subsequence?
+Ans: Substring must be contiguous, while subsequence can skip characters.
+
+⸻
+
+Q10. What does split() do?
+Ans: It divides a string into a list based on a specified delimiter.
+
+⸻
+
+Q11. What does join() do?
+Ans: It joins elements of a list into a single string using a delimiter.
+
+⸻
+
+Q12. What does find() return if substring is not found?
+Ans: It returns -1.
+
+⸻
+
+🔹 Kadane’s Algorithm
+
+Q13. What is Kadane’s Algorithm?
+Ans: It is an efficient algorithm used to find the maximum sum of a contiguous subarray.
+
+⸻
+
+Q14. What is the time complexity of Kadane’s Algorithm?
+Ans: O(n)
+
+⸻
+
+Q15. What is the key idea behind Kadane’s Algorithm?
+Ans: At each step, decide whether to extend the current subarray or start a new one.
+
+⸻
+
+Q16. Why does Kadane’s Algorithm fail for all-negative arrays?
+Ans: Because it resets the sum to zero, ignoring the maximum negative element.
+
+⸻
+
+🔹 Sorting Algorithms
+
+Q17. What is Bubble Sort?
+Ans: A simple sorting algorithm that repeatedly swaps adjacent elements if they are in wrong order.
+
+⸻
+
+Q18. What is Insertion Sort?
+Ans: A sorting algorithm that builds the sorted array one element at a time by inserting elements in correct position.
+
+⸻
+
+Q19. What is Selection Sort?
+Ans: A sorting algorithm that repeatedly selects the minimum element and places it at the beginning.
+
+⸻
+
+Q20. Which sorting algorithm is stable?
+Ans: Bubble Sort
+
+⸻
+
+Q21. Which sorting algorithm is best for nearly sorted arrays?
+Ans: Insertion Sort
+
+⸻
+
+🔹 Binary Search & Variations
+
+Q22. What is Binary Search?
+Ans: A searching algorithm that repeatedly divides the sorted array into two halves.
+
+⸻
+
+Q23. What is the time complexity of Binary Search?
+Ans: O(log n)
+
+⸻
+
+Q24. Why must array be sorted for binary search?
+Ans: Because binary search decides the search direction based on element order.
+
+⸻
+
+Q25. What is Search Insert Position problem?
+Ans: Finding the index where a target exists or should be inserted to maintain sorted order.
+
+⸻
+
+Q26. What is a peak element?
+Ans: An element that is greater than its neighboring elements.
+
+⸻
+
+🔹 Array Manipulation
+
+Q27. What is minimum swaps to sort an array?
+Ans: It is the minimum number of swaps required to sort the array.
+
+⸻
+
+Q28. On what concept is minimum swaps based?
+Ans: Cycle detection in permutation.
+
+⸻
+
+🔹 Linked List
+
+Q29. What is a singly linked list?
+Ans: A list where each node contains data and a pointer to the next node only.
+
+⸻
+
+Q30. What is a doubly linked list?
+Ans: A list where each node has pointers to both previous and next nodes.
+
+⸻
+
+Q31. How do you find the middle of a linked list?
+Ans: By using slow and fast pointers technique.
+
+⸻
+
+Q32. What is Floyd’s cycle detection algorithm?
+Ans: An algorithm using two pointers to detect a loop in a linked list.
+
+⸻
+
+Q33. What is a circular linked list?
+Ans: A linked list where the last node points back to the first node.
+
+⸻
+
+🔹 Hashing Techniques
+
+Q34. What is hashing?
+Ans: A technique to map keys to fixed-size values using a hash function.
+
+⸻
+
+Q35. What is a hash collision?
+Ans: When two different keys map to the same hash index.
+
+⸻
+
+Q36. What is a hash map?
+Ans: A data structure that stores key–value pairs for fast access.
+
+⸻
+
+Q37. What is a set?
+Ans: A collection that stores only unique elements.
+
+⸻
+
+Q38. When should a set be used instead of a list?
+Ans: When uniqueness and fast lookup are required.
+
+⸻
+
+Q39. Average time complexity of hash map operations?
+Ans: O(1)
+
+⸻
+
+Q40. Why is hashing faster than linear search?
+Ans: Because it provides direct access using hash values instead of sequential scanning.

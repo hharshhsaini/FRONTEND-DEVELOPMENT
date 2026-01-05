@@ -1,0 +1,15 @@
+#DAY 1 -
+
+1. what is css 
+2. how to link css with html
+3. css ko kaise likhte hai 
+4. boilerplate
+5. targeting an element or a tag 
+6. color , bg color , font size , font style , font family , font weight , text align , text transform.
+7. how to download font from google . 
+8. how to downlaod font from anu website. 
+9. how to apply custom fonts .
+10. id and classes.(for id we use # , and for class we use '.')
+
+-we can apply properties of diffrent id and classs on a same element.
+-div is a container , and used to make rectangular shapes.
