@@ -1,0 +1,104 @@
+/* Love fonts (can download many fonts from this sites for free.) */
+
+@font-face {
+    font-family: haunted;
+    src: url(./Another\ Danger\ Slanted\ -\ Demo.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: yellow;
+    background-color:rgb(208, 93, 16);
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#hero{
+    color: rgb(240, 9, 9);
+    background-color: rgb(0, 0, 0);
+    font-style: normal;
+}
+
+.harsh{
+    font-family:haunted;
+}
+
+.box{
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    background: linear-gradient(to bottom, orange, white, green);
+    border: 10px Blue dotted;
+    border-radius: 50%;
+}
+
+.box1{
+    height:200px;
+    width: 200px;
+    margin: 50px;
+    background: linear-gradient(to right bottom , red 30%, green 50%, blue);
+    border: white 5px solid;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    border-radius: 100%;
+    background: radial-gradient(red 20%, orange 40% , yellow );
+    border: 5px dashed red;
+}
+
+#box3{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    background:conic-gradient(violet , indigo,blue , green, yellow , orange, red);
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(214, 66, 66); 
+    margin: 50px;  
+}
+.inner{
+    width: 50%;
+    height: 50%;
+    background-color: salmon;
+    padding-top: 80px;
+    padding-left: 60px ;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1763987209766-d9bb8836c0e2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+}
+
+button{
+    margin: 50px;
+    padding: 10px 20px;
+    background-color: aqua;
+    color:black;
+    border-radius: 50%;
+    border:2px solid blue;
+    font-weight: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
