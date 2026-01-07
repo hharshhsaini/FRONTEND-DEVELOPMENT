@@ -55,4 +55,22 @@ html,body{
 
 #DAY 5-
 
-1.
+1.flex
+2. align items , justify content .
+
+- display flex dene se content rows and coulmns me devide ho jata hai orr ek saath ek line me align ho jaate hai.
+- align-items se apan Y-axis pr handel krte hai .
+flex-start - top of the flexbox.
+flex-end - bottom of the flexbox.
+- justify-content se apan X-asis pr handel krte hai .
+flex-start - left end of the flexbox.
+flex-end - right end of the flexbox.
+(center is used to align in center)
+
+#note - flex end and start are used with respect to justify and align items property to align them in X and Y axis.
+
+space-between is used to make spaces between them.
+
+#DAY 6-
+use of flex. 
+made project 3.

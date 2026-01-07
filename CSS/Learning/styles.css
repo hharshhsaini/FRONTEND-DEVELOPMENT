@@ -156,3 +156,29 @@ button{
     top: 10%;
 }
 
+.flexbox{
+    height:100%;
+    width:100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.flex1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.flex3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(21, 79, 187);
+}
+.flex2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(28, 184, 31);
+
+}

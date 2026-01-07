@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#nav a{
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+}
+#center{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url( https://www.apple.com/v/iphone-17-pro/d/images/overview/welcome/hero__bdntboqignj6_small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+}
+#center h1{
+    font-size: 100px;
+    color: white;
+    font-weight:300;
+}
+#center>h5{
+    color: white;
+    font-size: 35px;
+    font-weight:lighter;
+}
+
+#links{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#btn1{
+    background-color: royalblue;
+    font-size:20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+#btn2{
+    background-color: transparent;
+    font-size:20px;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    border: 1px solid royalblue;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
