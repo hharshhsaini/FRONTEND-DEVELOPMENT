@@ -47,3 +47,6 @@ html,body{
 - absolute se wo box ke upar uth jata hai orr kahi bhi jaa skta hai pure body me .
 - relative me wo jiss box ya div me banaya hai usi k andar hi move krega , uske bahar nahi jaa payega .
 - kisi bhi position ko aapne diya to wo by default relative hi kaam karti hai .
+
+#DAY 4-
+ 
