@@ -101,4 +101,57 @@ button{
     font-weight: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
- 
+
+/* DAY 3 */
+
+#car1{
+    position: absolute;
+    top: 200%;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+#car2{
+    height: 230px;
+    width: 250px;
+    background-color:blue;
+}
+
+.largebox{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    margin: 50px;
+}
+
+.smallbox{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
+.microbox{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.homepage{
+    height: 1000px;
+    width: 1000px;
+    background-color: aqua;
+}
+
+/* sticky se abb wo upar nahi touch hoga , orr wo top se humseha 10% niche hi rhega uss particular parent div k andr */
+.side{
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+    position:sticky;
+    top: 10%;
+}

@@ -34,3 +34,16 @@ html,body{
 4. Gradients - linear , radial , coniacal.
 5. margin , padding , border , border radius , border color .
 6. background , background image , size , repeat ,postion.
+
+#DAY 3-
+
+1. position - absolute, relative, fixed, sticky ,top , bottom , left , right.
+2. transform properties - translate (x and y), rotate, scale, skew.
+3. hover , transition . 
+
+- koi bhi element jispe position nahi hai uspar top left bottom and z-index ki property kaam nahi karti .
+- koi bhi element pr absolute lagane se wo upar uth jata hai , uski space khali ho jaati hai and uski jagah pe baad wala element aa jata hai .
+- top , left , bottom , right and z-index ye sirf kaam karti hai jab aapke element k pass koi position ho jaise ki - absolute , relative , sticky , fixed.
+- absolute se wo box ke upar uth jata hai orr kahi bhi jaa skta hai pure body me .
+- relative me wo jiss box ya div me banaya hai usi k andar hi move krega , uske bahar nahi jaa payega .
+- kisi bhi position ko aapne diya to wo by default relative hi kaam karti hai .
