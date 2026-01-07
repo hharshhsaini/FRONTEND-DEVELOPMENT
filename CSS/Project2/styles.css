@@ -2,33 +2,49 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: halvatica;
+    font-family: "halvatica";
 }
 html,body{
     height: 100%;
     width: 100%;
 }
 @font-face {
-    font-family: halvatica;
+    font-family: "halvatica";
     src: url(./HelveticaNowDisplay-Light.ttf);
 }
-
-#main{
-    background-color: white;
-    color: black;
-    height: 100%;
-    width: 100%;
+#main {
+  height: 100%;
+  width: 100%;
 }
-
-#nav a{
-    text-decoration: none;
-    color: Black;
-    font-size: 25px;
-    margin-right: 30px;
-}
-
 #nav{
-    padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+  position: relative;
+}
+.navleft,
+.navright {
+  display: flex;
+  gap: 20px;
+}
+.navcenter {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.navcenter h2 {
+  font-size: 22px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+#nav a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 #main>h1{
@@ -68,6 +84,11 @@ html,body{
     position: absolute;
     bottom: 0%;
     left: 0%;
+}
+
+#bottombar h1 {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #bottombar a{
