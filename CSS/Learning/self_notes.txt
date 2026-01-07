@@ -50,3 +50,9 @@ html,body{
 
 #DAY 4-
  
+ 1. positioning of elements and div.
+ 2. made project 2nd.
+
+#DAY 5-
+
+1.
