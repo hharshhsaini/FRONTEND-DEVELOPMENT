@@ -67,6 +67,8 @@ h1{
     width: 200px;
     margin: 50px;
     background:conic-gradient(violet , indigo,blue , green, yellow , orange, red);
+    box-shadow: 5px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 .outer{
@@ -161,24 +163,34 @@ button{
     width:100%;
     background-color: black;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content:space-around;
+    flex-direction: row;
+    overflow: auto;
 }
 
 .flex1{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background-color: red;
+    flex-shrink:0;
+    flex-wrap: nowrap;
 }
 
 .flex3{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(21, 79, 187);
+    height: 200px;
+    width: 200px;
+    background-color: rgb(21, 79, 187); 
+    flex-shrink:0;
 }
-.flex2{
-    height: 100px;
-    width: 100px;
-    background-color: rgb(28, 184, 31);
 
+/* ye abb green box ekdam center me aajayega transform use karne se,transform ko X and Y axis dono me move krne k liye use krr skte hai. */
+.flex2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(28, 184, 31);
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    flex-shrink:0;
+    /* clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); */
 }

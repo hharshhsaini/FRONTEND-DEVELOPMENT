@@ -74,3 +74,19 @@ space-between is used to make spaces between them.
 #DAY 6-
 use of flex. 
 made project 3.
+
+#DAY 7-
+
+1. transform translate using in x and y axis. 
+2. flex direction using (Row and column).
+default flex direction is row.
+3. using gap.
+4. flex flexible div banate hai orr unka size shrink ho skta hai.
+so , flexibility ko hatane k liye use hota hai (flex-wrap).
+5. apan particular div ka size shrink control krr skte hai with property (flex-shrink:).
+6. orr agar apan kisi ko bhi shrink nahi krenge to items overflow hone lag jaayenge orr display se bahar nikalne lag jaayenge.
+to isko control krne k liye property use hoti hai- (Overflow) , orr iss se apan scroll kar paayenge.
+7. Hoever.
+8. property of using cursor:pointer .
+
+#DAY 8-
