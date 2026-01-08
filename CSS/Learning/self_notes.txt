@@ -95,3 +95,6 @@ to isko control krne k liye property use hoti hai- (Overflow) , orr iss se apan 
 3. scale is used to scale the images and objects we are using in our website , we can change the size by using scale.
 4. overflow:hidden , this property is used to hide the overflow of content from any div. 
 5. transition: all(to set transition to all css properties of that particualr objedt ) , ease and then time (1s) like for how much time you want the transition.
+
+Made project 5 . 
+all transition , hover and flex positioning features are used , best to understand these concepts .
