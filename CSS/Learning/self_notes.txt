@@ -98,3 +98,30 @@ to isko control krne k liye property use hoti hai- (Overflow) , orr iss se apan 
 
 Made project 5 . 
 all transition , hover and flex positioning features are used , best to understand these concepts .
+
+#DAY 9-
+
+- Headings, paragraphs , divs are block elements , they cover the entire horizontal space.
+- image , anchor tags are inline elements , they do not cover the entire horizontal space.
+1. so we use (display:inline-block) , to make the block elements inline elememts. 
+2. rotate property do no work on anchor tag.
+3. .class_name*number_of_class - it use to make multiple classes at a time, to make the work flow fast.
+4. .class:nth-child(class_number) - it is use to target that class from starting. 
+5. .class:nth-last-child(class_number) - it is used to target nth child from last.  
+6. display grid , grid template row and column , we can config the ratios of rows and columns from this property.
+7. Background-clip:text - To add image in text.
+- to use background clip we have to use (color as transparent).
+- also we can use image ,gif, gradient by simply using background-clip property.
+- GIF can be used same as pasting GIF url in background-image.
+8.  -webkit-text-stroke - this is used to give border and border collor to text.
+9. In overflow auto , we seee a scroll bar , now to remove that we use 
+
+.parent1::-webkit-scrollbar{
+    display: none;
+}
+this is used to hide the scroll bar.
+- also we can change the color of scroll bar by using (backgroundcolor) to change the color of scrol bar.
+
+#DAY 10-
+
+

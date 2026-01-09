@@ -205,3 +205,58 @@ button{
 .flex2:hover{
     background-color: white;
 }
+ 
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 20% 50% 10% 20%;
+    grid-template-rows: 15% 20% 15% 50%;
+}
+.child:nth-child(n){
+    background-color: crimson;
+    border: 5px white solid;
+}
+.child:nth-child(2n){
+    background-color: lightseagreen;
+}
+.child:nth-child(3n){
+    background-color: lightblue;
+}
+.child:nth-child(4n){
+    background-color: aqua;
+}
+
+#image h1{
+    color: transparent;
+    font-size: 100px;
+    background-image: url(https://i.pinimg.com/originals/14/e9/c1/14e9c1fa08891b41f23b7cdd02904c0e.gif);
+    background-size: cover;
+    background-clip: text;
+    -webkit-text-stroke:2px red ;
+}
+
+.parent1{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    flex-wrap: nowrap;
+    overflow: auto;
+    background-color: rgb(236, 234, 234);
+    align-items: center;
+    
+}
+.parent1::-webkit-scrollbar{
+    display: none;
+}
+
+.parent1 img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.25);
+}
+
