@@ -131,5 +131,15 @@ this is used to hide the scroll bar.
 -then to use these area use (grid-area: name of area) in that particular grid , you want to use that area.
 - area k name likhte time total rows or total coumns co count kiya jata hai , uske baad area asign krna hota hai. 
 
-
-
+#DAY 11-
+1.units-
+~px(pixels) -fixed
+~ %(Percentage) -depends on parent.
+~ Vw(viewport width) -depends on viewport's  width.
+~ vh(viewport height) -depends upon viewport height.
+~ vmax(viewport maximum) -depends upon maximum viewport.
+~ vmin(viewport minimum) -depends upon minimum viewport.
+~ em -depends on parent.font-size: If a parent has font-size: 16px, then 1em in the child equals 16px, and 2em equals 32px.
+~ rem(root em) 1rem = 16 px. Fixed reference: Even if deeply nested, 1rem always refers back to the root size (typically defaulting to 16px in most browsers).
+                             Predictability: It avoids the compounding issues of em, making it easier to manage consistent spacing and sizing across a whole project.
+                            
