@@ -142,4 +142,52 @@ this is used to hide the scroll bar.
 ~ em -depends on parent.font-size: If a parent has font-size: 16px, then 1em in the child equals 16px, and 2em equals 32px.
 ~ rem(root em) 1rem = 16 px. Fixed reference: Even if deeply nested, 1rem always refers back to the root size (typically defaulting to 16px in most browsers).
                              Predictability: It avoids the compounding issues of em, making it easier to manage consistent spacing and sizing across a whole project.
-                            
+
+#DAY 12-
+
+1. Using SCSS.
+- it works on phenomenon of converting the the CSS code also it makes the style.css file , when CSS code is written in the SCSS file.
+
+2.font-style:system ui.
+3.Nesting - in SCSS,you can write selectors inside other sectors.
+          - This mimcs the structure of your HTMl and makes code clener.
+
+4.Mixins -A mixin is like a reusable styles for CSS rules.
+         -Helps avoid code repetation.
+         -Can take arguments to make it dynamic.
+         - to use this - refer to this template-
+           @mixin flexcenter(){
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           backgroundcolor-red
+           } 
+         - these are the properties may be repeated in multiple divs so we can give this mixin to parent.
+         - and to call them in the child divs we use.
+           -@include flexcenter(); 
+ - Making variable ->
+         - @mixin flexcenter($bg-color){
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            backgroundcolor-bg-color
+                            } 
+                        - here ($) is used to make variable , later it can be used.
+                        -- to use the variable --
+
+                        #id_1{
+                            @include flexcenter(blue) - here the variable is set to blue in background color of id_1.
+                        }
+                        #id_2{
+                            @include flexcenter(red) - similarily here the background color will be set to red.
+                        }
+
+
+5. Partials and imports -Paartials: small SCSS files(starts with_)to split your code(e.g. _headre.scss, _footer.scss)
+                        -Imports: Use @import to bring all partials into one main file.
+                        - Keeps project modular & easy to maintain.
+                        -(_name.scss) file k na to koi MAP file banegi na hi koi CSS file banegi.
+
+6. Flex-Grow -flex-grow is a CSS property for CSS Flexbox, defining how much a flex item expands to fill extra space in a container, with a default of 0 (no growth). Items with flex-grow: 1 share space equally, while flex-grow: 2 takes twice as much as flex-grow: 1, distributing remaining space proportionally to their values. It's used with flex-shrink and flex-basis for flexible layouts that adapt to screen sizes, often via the flex shorthand. 
+
+
