@@ -211,21 +211,36 @@ button{
     width: 100%;
     background-color: black;
     display: grid;
-    grid-template-columns: 20% 50% 10% 20%;
-    grid-template-rows: 15% 20% 15% 50%;
+    grid-template-columns: 1fr 2fr 2fr 1fr ;
+    /* grid-template-columns: 1fr 2fr 2fr 1fr minmax(100px ,auto); */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;   
+    align-content: space-evenly;
+    justify-content: space-evenly;
 }
 .child:nth-child(n){
     background-color: crimson;
     border: 5px white solid;
+    height: 100px;
+    width: 100px;
 }
 .child:nth-child(2n){
     background-color: lightseagreen;
+    border: 5px white solid;
+    height: 100px;
+    width: 100px;
 }
 .child:nth-child(3n){
     background-color: lightblue;
+    border: 5px white solid;
+    height: 100px;
+    width: 100px;
 }
 .child:nth-child(4n){
     background-color: aqua;
+    border: 5px white solid;
+    height: 100px;
+    width: 100px;
 }
 
 #image h1{

@@ -124,4 +124,12 @@ this is used to hide the scroll bar.
 
 #DAY 10-
 
+1. semantic tags - header, footer, nav, aside, article, section.
+- they improve accessibilitiy, SEO, and code readability by giving structure and meaning to web page content. 
+2. .parent#child$*10 - it will make 10 divs with id- child1 , child2 ,... in a div of class parent.
+3. grid-template-areas: this is used to name the areas to particular divs.
+-then to use these area use (grid-area: name of area) in that particular grid , you want to use that area.
+- area k name likhte time total rows or total coumns co count kiya jata hai , uske baad area asign krna hota hai. 
+
+
 
