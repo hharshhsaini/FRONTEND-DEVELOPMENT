@@ -139,9 +139,20 @@ this is used to hide the scroll bar.
 ~ vh(viewport height) -depends upon viewport height.
 ~ vmax(viewport maximum) -depends upon maximum viewport.
 ~ vmin(viewport minimum) -depends upon minimum viewport.
-~ em -depends on parent.font-size: If a parent has font-size: 16px, then 1em in the child equals 16px, and 2em equals 32px.
-~ rem(root em) 1rem = 16 px. Fixed reference: Even if deeply nested, 1rem always refers back to the root size (typically defaulting to 16px in most browsers).
+~ em -relative to the font size of its own nearest ancestor[defined font size]. If a parent has font-size: 16px, then 1em in the child equals 16px, and 2em equals 32px.
+    Use for: -Button ,Padding relative to its own font size.
+             -Icons or spacing inside components.
+~ rem(root em) 1rem = 16 px. Fixed reference: Even if deeply nested, 1rem always refers back to the root(<html>) size (typically defaulting to 16px in most browsers).
+                             Use for : Margins, Paddings(between sections)
                              Predictability: It avoids the compounding issues of em, making it easier to manage consistent spacing and sizing across a whole project.
+
+2. their are 2 types of units - 1.absolute  , 2. Relative
+-Absolute - these are fixed units and do not change their values.
+px, cm, pt, mm, in.
+-Relative - these units can change their values , with refrence to other units. 
+% , vw, vh, rem, em, vmin, vmax.
+
+3. html , body , section , main - they all have a default font size of 16px.                          
 
 #DAY 12-
 
@@ -189,5 +200,13 @@ this is used to hide the scroll bar.
                         -(_name.scss) file k na to koi MAP file banegi na hi koi CSS file banegi.
 
 6. Flex-Grow -flex-grow is a CSS property for CSS Flexbox, defining how much a flex item expands to fill extra space in a container, with a default of 0 (no growth). Items with flex-grow: 1 share space equally, while flex-grow: 2 takes twice as much as flex-grow: 1, distributing remaining space proportionally to their values. It's used with flex-shrink and flex-basis for flexible layouts that adapt to screen sizes, often via the flex shorthand. 
+
+#DAY 13 -
+1. Learning Responsive. 
+2. Viewport ek aisa area hai jo browser provide krta hai jisme tum apni website ko dikha sakte ho.
+
+
+
+
 
 
