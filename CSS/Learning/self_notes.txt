@@ -204,9 +204,18 @@ px, cm, pt, mm, in.
 #DAY 13 -
 1. Learning Responsive. 
 2. Viewport ek aisa area hai jo browser provide krta hai jisme tum apni website ko dikha sakte ho.
-
-
-
-
-
-
+3. Fluid Typography -
+    Responsive Typography - clamp() with vw and px.
+                          - clamp(lower limit , value , upperlimit)
+4. opacity - it is use to change the obliqueness of text(by default opacity : 1).
+5. line-height - it is used to give the diffrence btw lines of any para (by default line-height: 1).
+6. @media(min-width:__) - media querry is used to give a limit to any property to run.
+          expample- @media (min-width:600px){
+            main{
+               backgroundcolor:red
+            }
+          }
+        - here the background color will be changed to (red) when the width of main section will become 600 orr more than 600.
+        basicaly (media querry) holds the change value for a limit.
+7. to make responsive for 4k resolution we give property (max-width : 1600px), from this width of content will not extend after 1600 px.
+ - and use ( justify content : center ) for 4k display.
