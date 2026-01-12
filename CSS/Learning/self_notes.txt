@@ -207,7 +207,7 @@ px, cm, pt, mm, in.
 3. Fluid Typography -
     Responsive Typography - clamp() with vw and px.
                           - clamp(lower limit , value , upperlimit)
-4. opacity - it is use to change the obliqueness of text(by default opacity : 1).
+4. opacity - it is use to change the transparency of text(by default opacity : 1).
 5. line-height - it is used to give the diffrence btw lines of any para (by default line-height: 1).
 6. @media(min-width:__) - media querry is used to give a limit to any property to run.
           expample- @media (min-width:600px){
@@ -219,3 +219,12 @@ px, cm, pt, mm, in.
         basicaly (media querry) holds the change value for a limit.
 7. to make responsive for 4k resolution we give property (max-width : 1600px), from this width of content will not extend after 1600 px.
  - and use ( justify content : center ) for 4k display.
+
+# DAY 14 - 
+1. aspect-ratio : to divide image or any div in ratio of height and width.
+  - example- aspect-ratio: 1/1 (this means a square.)
+
+2. backdrop-filter: blur(5px ) ; it use to make any background-color blur such that content behind the background will visible blury.
+3. width: fill content; -it is used to give width to div exact to the content inside the div.
+    - its mainly used for icons , such that they can be seperated easily.
+4. (&nbsp) - this is written between words to giva a fake space between words of any para or heading.
