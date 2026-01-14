@@ -66,12 +66,39 @@
 // }
 // console.log("Outside:", a);
 
+// DATA TYPES-
+
+// -->  (string , boolean, [] , {} , () , null , undefined , NaN , Symbol , bigInt .)
+ 
+
 // primmitves - aisi saari values jinko copy karne par tumhe ek real copy mill jaayegi (string , number , bolean , null , undefined , symbol , bigint)
 
 // refrences - inko copy krne par real copy nahi milegi prr aapko refrence milega parent ka (array , onjects and functions)
 
 // array = [] , object = {} , function = () 
 
+// Null -  null ka matlb hai aapne jaan boojh kar koi value nahi di. ( ye apan khuud se dete hai )
+// Undifined - iska matlab ki aapne ek variable banaya aur usey value nahi di to jo value by default mili wo hai undefined.(orr ye js khuud deta hai agar apan koi value empty chhod dete ahi to.)
+
+// symbol -> unique immutable value.
+
+//future hum koi libraries use karenge ab is case me un libraries me kai baar kuch fields hoti hai jinse similar hum bhi bana dete hai aur galti se humari banai hui fields us library ki origional fields ko change kar dete hai.
+
+// let u1 = symbol("uid");
+// let u2 = symbol("uid");
+
+// they both u1 u2 are different.
+
+// Dynamic typing -> js mein static typing nahi hai and yaha par hai , dynamic typing jiska matlb hai aap data ko change kar sakte ho kynki yaha par dynamic data types hai.
+
+// typeof quirks ( e.g., typeof null == 'object'
+//                       typeof NaN == 'number')
+
+// type coercion -> concept jisme aapka ek type automatically convert hojayegaa.
+
+// falsy values - 0 , false , "" , null , undefined , NaN , document.all
+
+// true values - rest all are true values.
 
 // let length = 10;
 // console.log(typeof(length))
@@ -104,7 +131,7 @@
 // let y = symbol(Saini);
 
 // Object
-// const Harsh =  {Firstname:"Harsh",Lastname:"Daddy",Relation:"Is My Lovely Father."}
+// const Harsh =  {Firstname:"Harsh",Lastname:"Daddy",Relation:"Is My Lovely Father.https://www.youtube.com/@sheryians"}
 
 // Object inside the object 
 // let Person = {Name:"Harsh" ,Surname:"Saini",
@@ -125,7 +152,7 @@
 //     console.log(Harsh + shravani)
 // }
 
-// Sex()
+// Sex() 
 
 ///-----------------------"Positive and negative numbers"----------------------
 // let number = Number(prompt("Type your number:"))
@@ -237,3 +264,5 @@
 // else{
 //       console.log(`${str} is not a pallindrome.`)
 // }
+
+ 
