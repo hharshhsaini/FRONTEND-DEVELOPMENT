@@ -130,8 +130,22 @@
 // let x = symbol(Harsh);
 // let y = symbol(Saini);
 
+//OPERATORS-
+
+// ++ - pre increament 
+
+// let a = 12;
+// ++a
+// console.log(a)...(The value will be increased by 1 and a will become 13.)
+
+// a++ - in this case their will be no change in value 
+
+// a++ + a = 13+12 = 25 (in this case ++ is a post increament, first a will become 13 and then added to 12 .)
+
+// similarily it is same for (--) , but in this case , value will be subtracted by one .  
+
 // Object
-// const Harsh =  {Firstname:"Harsh",Lastname:"Daddy",Relation:"Is My Lovely Father.https://www.youtube.com/@sheryians"}
+// const Harsh =  {Firstname:"Harsh",Lastname:"Daddy",Relation:"Is My Lovely Father."}
 
 // Object inside the object 
 // let Person = {Name:"Harsh" ,Surname:"Saini",
