@@ -142,7 +142,12 @@
 
 // a++ + a = 13+12 = 25 (in this case ++ is a post increament, first a will become 13 and then added to 12 .)
 
-// similarily it is same for (--) , but in this case , value will be subtracted by one .  
+// similarily it is same for (--) , but in this case , value will be subtracted by one . 
+
+// let i = 1;
+// console.log(++i)
+// console.log(i++)
+// console.log(i)
 
 // Object
 // const Harsh =  {Firstname:"Harsh",Lastname:"Daddy",Relation:"Is My Lovely Father."}
@@ -279,4 +284,3 @@
 //       console.log(`${str} is not a pallindrome.`)
 // }
 
- 

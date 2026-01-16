@@ -35,7 +35,7 @@ body {
 }
 .nav-tab #left-nav a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
 }
 .nav-tab #left-nav a:hover {
@@ -81,6 +81,7 @@ body {
   display: flex;
   padding-right: 5rem;
   flex-direction: row;
+  margin: 0;
 }
 .view1 .left-view1 {
   display: flex;
@@ -180,16 +181,16 @@ body {
   border-color: #FAEBF9;
   background-color: white;
 }
-.view1 .left-view1 .heading-view1 .bot-button {
+.view1 .left-view1 .heading-view1 .search-button {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 30px;
+  gap: 0.5rem;
+  margin-top: 1rem;
   align-items: center;
   width: 100%;
 }
-.view1 .left-view1 .heading-view1 .bot-button button {
-  padding: 8px 16px;
+.view1 .left-view1 .heading-view1 .search-button button {
+  padding: 0.4rem 1rem;
   font-size: 12px;
   color: #060318;
   border: none;
@@ -198,7 +199,7 @@ body {
   border: 1.5px solid #f3f3f6;
   cursor: pointer;
 }
-.view1 .left-view1 .heading-view1 .bot-button button:hover {
+.view1 .left-view1 .heading-view1 .search-button button:hover {
   background-color: rgba(240, 240, 240, 0.7254901961);
 }
 .view1 .right-view1 {
@@ -268,11 +269,14 @@ body {
   border-radius: 10px;
   font-weight: 400;
 }
+.filters-bar .follow:hover {
+  cursor: pointer;
+}
 .filters-bar .filter-options {
   display: flex;
   align-items: center;
   gap: 45px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .filters-bar .filter-options .discover {
   padding: 0.5rem 0.9rem;
@@ -280,9 +284,16 @@ body {
   font-size: 1rem;
   border-radius: 2rem;
 }
+.filters-bar .filter-options .discover:hover {
+  cursor: pointer;
+}
 .filters-bar .filter {
   border: 0.1rem solid #DBDBDE;
   padding: 0.5rem 0.9rem;
   font-size: 0.8rem;
   border-radius: 2rem;
+}
+.filters-bar .filter-options p:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

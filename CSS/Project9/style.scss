@@ -34,7 +34,7 @@ body {
         }
         a {
           text-decoration: none;
-          font-weight: 500;
+          font-weight: 600;
           font-size: 15px;
         }
         a:hover{
@@ -81,6 +81,7 @@ body {
     display: flex;
     padding-right: 5rem;
     flex-direction: row;
+    margin: 0;
     .left-view1{
         display: flex;
         width: 100%;
@@ -186,16 +187,16 @@ body {
                 border-color: #FAEBF9;
                 background-color: white;
             }
-            .bot-button{
+            .search-button{
                 display: flex;
                 flex-wrap: wrap;
-                gap: 10px;
-                margin-top: 30px;
+                gap: 0.5rem;
+                margin-top: 1rem;
                 align-items: center;
                 width: 100%;
 
                 button{
-                    padding: 8px 16px;
+                    padding: 0.4rem 1rem;
                     font-size: 12px;
                     color: #060318;
                     border: none;
@@ -279,23 +280,34 @@ body {
     border-radius: 10px;
     font-weight: 400;
   }
+  .follow:hover{
+    cursor: pointer;
+  }
 
   .filter-options {
         display: flex;
         align-items: center;
         gap: 45px;
-        font-weight: 500;
+        font-weight: 600;
         .discover{
             padding: 0.5rem 0.9rem;
             background-color:#F5F3F1;
             font-size: 1rem;
             border-radius: 2rem;
         }
+        .discover:hover{
+            cursor: pointer;
+        }
+    
     }
     .filter{
         border: 0.1rem solid #DBDBDE;
         padding: 0.5rem 0.9rem;
         font-size: 0.8rem;
         border-radius: 2rem;
+    }
+    .filter-options p:hover{
+        opacity: 0.5;
+        cursor: pointer;
     }
 }
