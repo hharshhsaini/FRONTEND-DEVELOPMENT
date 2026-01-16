@@ -227,3 +227,75 @@ body {
     }
                 
 }
+.banner {
+  margin-left: 4rem;
+  border-radius: 20px;
+  background-color: #f0f2f7;
+  width: 92%;
+  padding: 1.8rem 1rem;
+
+    .banner-main {
+        background-color: white;
+        color: #060318;
+        padding: 1rem;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 14px;
+        position: relative;
+    }
+    .banner-new {
+        background-color: #ea4c89;
+        color: white;
+        font-size: 0.7rem;
+        padding: 0.1rem 0.4rem;
+        border-radius: 12px;
+        font-weight: 600;
+        position: absolute;
+        margin-top: -1.3rem;
+        left: 9.5rem;
+    }
+    .banner-text {
+        font-size: 0.9rem;
+        margin-left: 1rem;
+    }
+    .banner-main i {
+        color: #664cea;
+    }
+}
+.filters-bar {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  margin-top: 3rem;
+  width: 95%;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-left: 4rem;
+
+  .follow{
+    border: 0.1rem solid #EAEAEB;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: 400;
+  }
+
+  .filter-options {
+        display: flex;
+        align-items: center;
+        gap: 45px;
+        font-weight: 500;
+        .discover{
+            padding: 0.5rem 0.9rem;
+            background-color:#F5F3F1;
+            font-size: 1rem;
+            border-radius: 2rem;
+        }
+    }
+    .filter{
+        border: 0.1rem solid #DBDBDE;
+        padding: 0.5rem 0.9rem;
+        font-size: 0.8rem;
+        border-radius: 2rem;
+    }
+}
