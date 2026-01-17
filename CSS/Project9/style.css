@@ -392,6 +392,7 @@ body {
 .content .cards .card-info .left img {
   height: 1.5rem;
   width: 1.5rem;
+  border-radius: 50%;
 }
 .content .cards .card-info .left .tag {
   color: white;
