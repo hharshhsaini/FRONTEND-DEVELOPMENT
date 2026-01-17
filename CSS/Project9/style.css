@@ -345,7 +345,7 @@ body {
   display: none;
 }
 .content .cards .card:hover .bottom {
-  height: 30%;
+  height: 40%;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -354,11 +354,14 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: linear-gradient(transparent, rgb(180, 177, 177), rgb(160, 158, 158));
+  background: linear-gradient(to bottom, rgba(6, 3, 24, 0) 40%, rgba(6, 3, 24, 0.18) 60%, rgba(6, 3, 24, 0.32) 80%, rgba(6, 3, 24, 0.45) 100%);
   border-radius: 10px;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
 }
 .content .cards .card:hover .bottom .heading {
-  color: white;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(6, 3, 24, 0.35);
   font-weight: 500;
   font-size: 1rem;
 }
