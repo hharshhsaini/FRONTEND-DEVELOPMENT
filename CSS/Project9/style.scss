@@ -311,3 +311,146 @@ body {
         cursor: pointer;
     }
 }
+.content{
+    display: grid;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2rem;
+    width: 100%;
+    padding: 2rem 4rem;
+
+    .cards{
+        height: 20rem;
+        width: 25rem;
+        display: flex;
+        flex-direction: column;
+        transition: all ease 0.5sec;
+        flex-shrink: 0;
+
+        .card{
+            height: 90%;
+            width: 100%;
+            position: relative;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+            }
+            video{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: opacity 0.6s ease;
+                border-radius: 10px;
+                opacity: 0;
+            }
+            img:hover{
+                opacity: 0;
+            }
+            video:hover{
+                opacity: 1;
+            }
+            .bottom{
+                display: none;
+            }
+
+            
+        }
+        .card:hover{
+            .bottom{
+                height: 30%;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                align-items: center;
+                padding: 1rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background: linear-gradient(transparent ,rgb(180, 177, 177), rgb(160, 158, 158));
+                border-radius: 10px;
+                
+                .heading{
+                    color: white;
+                    font-weight: 500;
+                    font-size: 1rem;
+                }
+
+                .ri-bookmark-line{
+                    background-color: white;
+                    padding: 0.8rem;
+                    border-radius: 50%;
+                    margin-right: 0.6rem;
+                }
+                .ri-heart-3-line{
+                    background-color: white;
+                    padding: 0.8rem;
+                    border-radius: 50%;
+                }
+
+            }
+
+        }
+        .card-info{
+            margin-top: 0.5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 2rem;
+            
+
+            .left{
+                display: flex;
+                align-items: flex-start;
+                gap: 0.5rem;
+                justify-content: center;
+                
+                img{
+                 height: 1.5rem;
+                 width: 1.5rem;
+               }
+               .tag{
+                color: white;
+                background-color: #c2c2cbdd;
+                font-size: 0.7rem;
+                height: 1rem;
+                width: 1.8rem;
+                margin-top: 0.25rem;
+                border-radius: 15%;
+                text-transform: uppercase;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+               }
+               .tag:hover{
+                background-color: black;
+                cursor: pointer;
+               }
+            }
+            .right{
+                opacity: 0.7;
+                display: flex;
+                align-items: flex-start;
+                gap: 0.5rem;
+                
+                .ri-heart-fill{
+                    color:#9E9EA7;
+                }
+                .ri-heart-fill:hover{
+                    color: palevioletred;
+                    cursor: pointer;
+                }
+                .ri-eye-fill{
+                    color:#9E9EA7;
+                }
+            }
+        }
+
+    }
+}
