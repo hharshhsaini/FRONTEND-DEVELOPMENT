@@ -361,7 +361,7 @@ body {
         .card:hover{
             cursor: pointer;
             .bottom{
-                height: 40%;
+                height: 30%;
                 width: 100%;
                 position: absolute;
                 bottom: 0;
@@ -414,7 +414,7 @@ body {
                 align-items: flex-start;
                 gap: 0.5rem;
                 justify-content: center;
-                
+               
                 img{
                  height: 1.5rem;
                  width: 1.5rem;
@@ -455,6 +455,7 @@ body {
                 .ri-eye-fill{
                     color:#9E9EA7;
                 }
+                
             }
         }
 
