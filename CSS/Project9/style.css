@@ -222,7 +222,7 @@ body {
   border-radius: 20px;
   background-color: #f0f2f7;
   width: 92%;
-  padding: 1.8rem 1rem;
+  padding: 1.8rem;
 }
 .banner .banner-main {
   background-color: white;
@@ -310,7 +310,7 @@ body {
 }
 .content .cards {
   height: 20rem;
-  width: 25rem;
+  width: 23.5rem;
   display: flex;
   flex-direction: column;
   transition: all ease 0.5sec;
@@ -343,6 +343,9 @@ body {
 }
 .content .cards .card .bottom {
   display: none;
+}
+.content .cards .card:hover {
+  cursor: pointer;
 }
 .content .cards .card:hover .bottom {
   height: 40%;

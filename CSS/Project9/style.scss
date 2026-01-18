@@ -233,7 +233,7 @@ body {
   border-radius: 20px;
   background-color: #f0f2f7;
   width: 92%;
-  padding: 1.8rem 1rem;
+  padding: 1.8rem ;
 
     .banner-main {
         background-color: white;
@@ -323,7 +323,7 @@ body {
 
     .cards{
         height: 20rem;
-        width: 25rem;
+        width: 23.5rem;
         display: flex;
         flex-direction: column;
         transition: all ease 0.5sec;
@@ -359,6 +359,7 @@ body {
             
         }
         .card:hover{
+            cursor: pointer;
             .bottom{
                 height: 40%;
                 width: 100%;
@@ -378,7 +379,6 @@ body {
                 );
                 border-radius: 10px;
                 backdrop-filter: blur(2px);
-                
                 .heading{
                     color: #fff;
                     text-shadow: 0 1px 3px rgba(6, 3, 24, 0.35);
