@@ -423,7 +423,7 @@ body {
                .tag{
                 color: white;
                 background-color: #c2c2cbdd;
-                font-size: 0.7rem;
+                font-size: 0.5rem;
                 height: 1rem;
                 width: 1.8rem;
                 margin-top: 0.25rem;
@@ -432,6 +432,7 @@ body {
                 font-weight: 600;
                 display: flex;
                 justify-content: center;
+                align-items: center;
                }
                .tag:hover{
                 background-color: black;

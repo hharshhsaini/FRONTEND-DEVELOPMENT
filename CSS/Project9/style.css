@@ -400,7 +400,7 @@ body {
 .content .cards .card-info .left .tag {
   color: white;
   background-color: rgba(194, 194, 203, 0.8666666667);
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   height: 1rem;
   width: 1.8rem;
   margin-top: 0.25rem;
@@ -409,6 +409,7 @@ body {
   font-weight: 600;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .content .cards .card-info .left .tag:hover {
   background-color: black;
