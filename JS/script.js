@@ -284,3 +284,57 @@
 //       console.log(`${str} is not a pallindrome.`)
 // }
 
+
+//-----------------------------"OTP verification"--------------------------------
+
+// function sendOTP() {
+//   return new Promise((resolve) => {
+//     console.log("Sending OTP...");
+
+//     setTimeout(() => {
+//       const otp = Math.floor(1000 + Math.random() * 9000);
+//       console.log("OTP sent:", otp); // for demo
+//       resolve(otp);
+//     }, 2);
+//   });
+// }
+
+// function askUserOTP() {
+//   return new Promise((resolve, reject) => {
+//     const userOTP = prompt("Enter the OTP:");
+
+//     if (userOTP !== null && userOTP !== "") {
+//       resolve(userOTP);
+//     } else {
+//       reject(" OTP input cancelled");
+//     }
+//   });
+// }
+
+// function verifyOTP(sentOTP, userOTP) {
+//   return new Promise((resolve, reject) => {
+//     console.log(" Verifying OTP...");
+
+//     setTimeout(() => {
+//       if (sentOTP == userOTP) {
+//         console.log("OTP Verified Successfully");
+//         resolve();
+//       } else {
+//         console.log(" OTP Verification Failed");
+//         reject();
+//       }
+//     }, 1);
+//   });
+// }
+// sendOTP()
+//   .then((sentOTP) => {
+//     return askUserOTP().then((userOTP) => {
+//       return verifyOTP(sentOTP, userOTP);
+//     });
+//   })
+//   .then(() => {
+//     console.log("Login Successful");
+//   })
+//   .catch(() => {
+//     console.log("Login Failed");
+//   });

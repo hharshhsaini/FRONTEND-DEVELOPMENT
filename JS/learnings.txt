@@ -1,0 +1,27 @@
+JS ek scripting language hai.
+- computers ko binary samajh aati hai jo ki 0 , 1 mein likhi jaati hai.
+- user input -> interpreter/compiler -> 010101010111
+
+-JS bhi ek aisi languagae hai jo humans likhte hai orr wo binary me likhi jaati hai.
+
+- A scripting language is a type of programming language primarily designed to automate tasks, manipulate or customize the features of an existing software system or runtime environment, and connect different software components. Scripts are typically executed by an interpreter line by line at runtime, rather than being compiled into a standalone machine-code executable beforehand. 
+
+-compiler/interpreter - translator jo humari language ko unki me convert krde orr unki ko apni language me krde. 
+
+JS - brenden eich(netscape me kaam krte the.)
+15 - 16 days me JS language banadi , jaldbaji k karn error and bugs reh gaye .
+to inhe fix krte krte krte bahot saare JS k versions nikle.
+usme se ek version ka name tha (es6), uske baad aur bhi versions aaye par es6 sabse bada raha js ki history me , kyunki js lagbhag completely badal gayi.
+matlab ki js ke issues , bugs and problems ko fix krne ke liye bhot saare naye diye gaye.
+- js sirf browser k liye banayi gayi thi , or wo sirf browser prr chalti hai.
+
+js is important because, kyunki website pe animations se lekar interactions or lagbhag har prakaar ka koi engagement create krne k liye use hoti hai.
+
+ 
+
+
+
+
+
+
+
