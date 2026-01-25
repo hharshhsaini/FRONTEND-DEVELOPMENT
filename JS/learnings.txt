@@ -17,6 +17,16 @@ matlab ki js ke issues , bugs and problems ko fix krne ke liye bhot saare naye d
 
 js is important because, kyunki website pe animations se lekar interactions or lagbhag har prakaar ka koi engagement create krne k liye use hoti hai.
 
+let msg = prompt("sheriyans is love");
+1.prompt - it is used to take input in string.
+2.msg.slice(2,6) - it is use to slice the elements of string.
+3.msg.split('') - it will split the letters of complete string and place them in given comas . here('')
+4.msg.replace("love" , "studey") - it is used to replace the words of any string.
+5.teplate string example: let name = "harsh";
+                          console.log(`Hey ${name});
+6.msg.includes("love") - used to find out whether the word is present in that particular string.
+
+
 Operators in Js-
 
     1.Arithmatic Operators
@@ -61,3 +71,14 @@ Operators in Js-
     
     10. Optional chaining
     ?. (safe access to nested values)
+
+variable hoisting in JS
+    -hoisting ka mtlb hai ki variable ko banane se pehle bhi use kiya jaa skta hai .
+    -hoisting me aapka variable 2 hisso me tut jata hai.
+    -declaration top of the file jata hai.
+    -initialization wahi rehta hai jaha variable tha.
+    -ab aapka variable error nahi deta kyunki wo humesha use hone se pehle exist kr rha tha(orr undefined output dedega).
+
+
+
+    
