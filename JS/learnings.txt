@@ -17,11 +17,47 @@ matlab ki js ke issues , bugs and problems ko fix krne ke liye bhot saare naye d
 
 js is important because, kyunki website pe animations se lekar interactions or lagbhag har prakaar ka koi engagement create krne k liye use hoti hai.
 
+Operators in Js-
+
+    1.Arithmatic Operators
+    + * - /
+    % -> modulus(it finds the remainder)
+    ** -> exponential
+
+    2. Assignment Operators
+    = += -= *= /= %=
+    (these operators are used to firstly perform the arithmatic operation then changes the value after the operation.)
+
+    3.Comparison operators
+    == === != !== > < >= <=
+    == not strict compare (never use this)
+    === strict compare (ALWAYS USE THIS)
+    != (never use this)
+    !== (ALWAYS USE THIS)
+
+    4.Logical operators
+    && || ! 
+        && - and
+        || - or
+        ! - not 
+
+    5.Ternary operators
+    ( condition ? doThis : doThat )
+
+    6.Type checking operators 
+    typeof
+    instanceof(kuch bhi banaoge wo top pe likhi gayi chijo se aata hai)
+
+    7.String operator
+    + (for concatenation)
  
+    8.Spread / Rest Operator
+    .......(very important in modern js)
+    spread - ...
+    Rest - ...
 
-
-
-
-
-
-
+    9.Nullish Coalescing operator
+    ?? (fallback only when null / undefined)
+    
+    10. Optional chaining
+    ?. (safe access to nested values)
