@@ -135,3 +135,17 @@ terniary operator -
 12 > 13 ? console.log("hey") : console.log("hello");
 (it is basically a different form of writting if else)
 
+Loops - 
+
+- repeat karna
+
+straightforward loop -> naa hi value badalti hai naa hi printing badalti hai.
+
+dynamic loop -> value badal sakti hai and printing bhi badal sakti hai.
+
+1. for loop -
+for(start; end ; change)
+    for (let i = 1; i < 6; i++){
+        console.log("harsh")
+    }
+jab koi ek chij kitni baar print honi hai isse koi farak nahi padta ki tumhara loop ki "i" ki value kaha se shuru ho rhi hai.
