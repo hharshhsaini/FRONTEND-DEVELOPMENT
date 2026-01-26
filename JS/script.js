@@ -170,8 +170,21 @@
 //     let shravani = 2;
 //     console.log(Harsh + shravani)
 // }
-
 // Sex() 
+
+// -------------------------------------#note----------------------------------
+
+// test();
+//     function test() {
+//         console.log("hello");
+//     } 
+// - here we can call the function before the initialaization of the function.
+
+// hello();
+// var hello = function(){
+//     console.log("hello");
+// }
+// - isme (var hello) top prr chal ajayega or top prr hoisting lelega orr fir error aayega "hello is not a function" .
 
 ///-----------------------"Positive and negative numbers"----------------------
 // let number = Number(prompt("Type your number:"))
@@ -338,3 +351,5 @@
 //   .catch(() => {
 //     console.log("Login Failed");
 //   });
+
+  
