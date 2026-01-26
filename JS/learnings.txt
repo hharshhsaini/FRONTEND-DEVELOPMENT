@@ -1,3 +1,5 @@
+#DAY 1 -
+
 JS ek scripting language hai.
 - computers ko binary samajh aati hai jo ki 0 , 1 mein likhi jaati hai.
 - user input -> interpreter/compiler -> 010101010111
@@ -26,6 +28,8 @@ let msg = prompt("sheriyans is love");
                           console.log(`Hey ${name});
 6.msg.includes("love") - used to find out whether the word is present in that particular string.
 
+
+#DAY 6 -
 
 Operators in Js-
 
@@ -114,8 +118,20 @@ Basic Terminologies-
     - isme (var hello) top prr chal ajayega or top prr hoisting lelega orr fir error aayega "hello is not a function".
     
     - "let" and "const" are also hoisted but not in that way as "var" is hoisted , they show "refrence error" in hoisting whereas , var shows undefined.
-    
- 
- 
 
+#DAY 7 - 
+
+Loops & Conditionals in javascript.
+
+Conditionals-
+
+programming me kai baar aisa phase aata hai jaha pr aako decide krna padta hai ki kya krne , option A choose kre ya option B choose kre.agar baarish ho rhi hai to print kro hello nahi to print kro bye bye.
+- to aise case me use krte hai if-else.
+
+truthy - kuch bhi niche waalo k alaawa
+falsy - 0 , "" , false, NaN, null, undefined, document.all
+
+terniary operator - 
+12 > 13 ? console.log("hey") : console.log("hello");
+(it is basically a different form of writting if else)
 
