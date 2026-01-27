@@ -149,3 +149,17 @@ for(start; end ; change)
         console.log("harsh")
     }
 jab koi ek chij kitni baar print honi hai isse koi farak nahi padta ki tumhara loop ki "i" ki value kaha se shuru ho rhi hai.
+
+- Jab bhi prompt se kuch mangoge to socho kya wo number hai aur agar hai to to usko convert karna padega.
+-usko convert krne k liye use krenge - parseInt, Number, use(+) with prompt.
+
+
+
+
+
+
+
+
+
+
+

@@ -247,6 +247,64 @@
 //     console.log(`Harsh ne Varun ki ${i} baar gaand Mari`)
 // }
 
+// ------------------------Bypassing-------------------
+// for (let i = 12; i>0; i--){
+//     if (i===5 || i === 7){}
+//     else console.log(i)
+// }
+
+//---------------printing 1 to 10----------------------
+// for (let i = 1 ; i < 11 ; i++){
+//     console.log(i);
+// }
+
+//---------------printing even numbers-----------------
+// for(let i = 1 ; i < 21 ; i++){
+//     if(i%2 === 0){
+//         console.log(i);
+//     }
+// }
+
+//----------------reverse from 10 to 1-----------------
+// for(let i = 10 ; i > 0 ; i--){
+//     console.log(i);
+// }
+
+//-------------------even/odd problem------------------
+// for(let i = 1 ; i<21 ; i++){
+//     if(i%2 === 0) console.log(`${i} - Even`)
+//     else console.log(`${i} - Odd`)
+// }
+
+//-------------------finding positive orr negative-----
+// let num = +prompt("Number batao:");
+// if(num >= 0){
+//     console.log("positive");
+// }else{
+//     console.log("negative");
+// }
+
+// similarily age and vote question can be done.
+
+//-----------------age problem----------------
+// let age = prompt("age batao:");
+// if (age === null){
+//     console.error("you pressed cancel.");
+// }
+// else{
+//     if(age.trim()=== ""){
+//         console.error("bhai dhang se likh le.");
+//     }
+//     age = Number(age.trim());
+//     if (isNaN(age)){
+//         console.error("Bhai number daal")
+//     }
+//     else{
+//         console.log(`Your age is: ${age} years`);
+//     }
+// }
+
+
 
 // ---------------------- Table -----------------------
 // for(i =5  ; i<=50 ; i+=5){
