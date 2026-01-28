@@ -409,4 +409,44 @@
 //   .catch(() => {
 //     console.log("Login Failed");
 //   });
+function Header(props) {
+  console.log(props);
 
+  return (
+    <div>
+      <header>Welcome to Polaris {props.name}</header>
+      <p>{props.email}</p>
+      <p>{props.age > 20 ? "He is an adult" : "He is not an adult"}</p>
+    </div>
+  );
+}
+
+function Main() {
+  return (
+    <p>
+      Lorem ipsum dolor ndklsandjkn s adihasd d adhhdhfj hahdhfs shdha
+      sdadhafasfjcnkahdhu adh ash duahsfiadojasfhab fchsu da ahab cdjhcfa
+    </p>
+  );
+}
+
+function Footer() {
+  return <p>Footer section</p>;
+}
+
+function App() {
+  return (
+    <div>
+      <Header
+        name="harsh"
+        email="sainiharsh3311@gmail.com"
+        age={19}
+      />
+
+      <Main />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
