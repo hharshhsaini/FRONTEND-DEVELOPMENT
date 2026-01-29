@@ -297,14 +297,25 @@
 //     }
 //     age = Number(age.trim());
 //     if (isNaN(age)){
-//         console.error("Bhai number daal")
+//         console.error("Bhai number daal...")
 //     }
 //     else{
-//         Number(age);
 //         console.log(`Your age is: ${age} years`);
 //     }
 // }
 
+
+// shortening the upper code - 
+
+// let age = prompt("age batao:");
+
+// if (!age) {
+//   console.error("You pressed cancel or empty input.");
+// } else if (isNaN(age = Number(age.trim()))) {
+//   console.error("Bhai number daal...");
+// } else {
+//   console.log(`Your age is: ${age} years`);
+// }
 
 // --------------------------------- Table ------------------------------------
 // for(i =5  ; i<=50 ; i+=5){
