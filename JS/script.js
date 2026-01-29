@@ -287,22 +287,24 @@
 // similarily age and vote question can be done.
 
 //-------------age problem(this is very important basebuilding problem.---------
-// let age = prompt("age batao:");
-// if (age === null){
-//     console.error("you pressed cancel.");
-// }
-// else{
-//     if(age.trim()=== ""){
-//         console.error("bhai dhang se likh le.");
-//     }
-//     age = Number(age.trim());
-//     if (isNaN(age)){
-//         console.error("Bhai number daal...")
-//     }
-//     else{
-//         console.log(`Your age is: ${age} years`);
-//     }
-// }
+let age = prompt("age batao:");
+if (age === null){
+    console.error("you pressed cancel.");
+}
+else{
+    if(age.trim()=== ""){
+        console.error("bhai dhang se likh le.");
+    }
+    age = Number(age.trim());
+    if (isNaN(age)){
+        console.error("Bhai number daal...")
+    }
+    else{
+        if (age < 0) console.log("please input positive age")
+        else if(age >= 18) console.log("You can vote");
+        else console.log("you can't vote")
+    }
+}
 
 
 // shortening the upper code - 
