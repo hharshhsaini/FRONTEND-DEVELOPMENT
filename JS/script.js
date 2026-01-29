@@ -287,36 +287,44 @@
 // similarily age and vote question can be done.
 
 //-------------age problem(this is very important basebuilding problem.---------
-let age = prompt("age batao:");
-if (age === null){
-    console.error("you pressed cancel.");
-}
-else{
-    if(age.trim()=== ""){
-        console.error("bhai dhang se likh le.");
-    }
-    age = Number(age.trim());
-    if (isNaN(age)){
-        console.error("Bhai number daal...")
-    }
-    else{
-        if (age < 0) console.log("please input positive age")
-        else if(age >= 18) console.log("You can vote");
-        else console.log("you can't vote")
-    }
-}
+// let age = prompt("age batao:");
+// if (age === null){
+//     console.error("you pressed cancel.");
+// }
+// else{
+//     if(age.trim()=== ""){
+//         console.error("bhai dhang se likh le.");
+//     }
+//     age = Number(age.trim());
+//     if (isNaN(age)){
+//         console.error("Bhai number daal...")
+//     }
+//     else{
+//         if (age < 0) console.error("please input positive age")
+//         else if(age >= 18) console.log("You can vote");
+//         else if (age<18) console.log("you can't vote")
+//     }
+// }
 
 
 // shortening the upper code - 
-
 // let age = prompt("age batao:");
 
-// if (!age) {
-//   console.error("You pressed cancel or empty input.");
-// } else if (isNaN(age = Number(age.trim()))) {
-//   console.error("Bhai number daal...");
+// if (age === null) {
+//   console.error("you pressed cancel.");
+//   return;
+// }
+
+// age = Number(age.trim());
+
+// if (!age && age !== 0) {
+//   console.error("bhai dhang se likh le / number daal");
+// } else if (age < 0) {
+//   console.error("please input positive age");
+// } else if (age >= 18) {
+//   console.log("You can vote");
 // } else {
-//   console.log(`Your age is: ${age} years`);
+//   console.log("you can't vote");
 // }
 
 // --------------------------------- Table ------------------------------------
