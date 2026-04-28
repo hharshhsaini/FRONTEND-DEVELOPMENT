@@ -243,7 +243,7 @@
 
 
 //-----------------------"For Loop Question"----------------------------------
-// for( i = 1 ; i <= 20 ; i++){
+// for( i = 1 ; i <= 21 ; i++){
 //     console.log(`Harsh ne Varun ki ${i} baar gaand Mari`)
 // }
 
@@ -259,12 +259,12 @@
 // }
 
 //---------------printing even numbers-----------------
-// for(let i = 1 ; i < 21 ; i++){
+// for(let i = 1 ; i < 21 ; i++){  
 //     if(i%2 === 0){
 //         console.log(i);
 //     }
 // }
-
+ 
 //----------------reverse from 10 to 1-----------------
 // for(let i = 10 ; i > 0 ; i--){
 //     console.log(i);
@@ -284,6 +284,28 @@
 //     console.log("negative");
 // }
 
+// ---------------- concept of prompt() -----------------
+
+// let num = prompt("number batao");{
+//     if (num === 12) console.log("ye 12 number hai ")
+//     else console.log("Ye 12 string hai")
+// }
+// prompt se kuch bhi maangoge , wo humesha aapko string hi dega .
+// isko string me change krne k liye use krenge - ( parseInt, Number, use(+) with prompt)
+
+// let num = prompt("number btao");
+// num = parseInt(num);
+//     if (num === 12) console.log("ye 12 number hai ")
+//     else console.log("Ye 12 string hai")
+// now , this will give output number.
+
+//--------------take input and check whether it is -ve or +ve------------------
+
+// let num = +prompt("Number bataao");{
+//     if (num>=0) console.log("Number is Positive");
+//     else console.log("Number is Negative")
+// }
+ 
 // similarily age and vote question can be done.
 
 //-------------age problem(this is very important basebuilding problem.---------
@@ -293,11 +315,11 @@
 // }
 // else{
 //     if(age.trim()=== ""){
-//         console.error("bhai dhang se likh le.");
+//         console.error("you have given an empty value in input.");
 //     }
 //     age = Number(age.trim());
 //     if (isNaN(age)){
-//         console.error("Bhai number daal...")
+//         console.error("You haven't given numnber in input.")
 //     }
 //     else{
 //         if (age < 0) console.error("please input positive age")
@@ -339,10 +361,28 @@
 //     console.log(`${n} X ${i} = ${n*i}`)
 // }
 
+//---------------- printing first 3 odd numbers between 1 to 20 ----------------
+// let counter = 0;
+// for (let i = 1; i < 21; i++){
+//     if(counter === 3) break;
+//     if (i % 2 !== 0){
+//         console.log(i);
+//         counter++;
+//     }
+// }
+
+//  Asking user 5 numbers & counting total positive numebrs among them.
+
+// let count = 0;
+// for (i = 1; i<6; i++ ){
+//     let number = +prompt("enter your number");
+//     if (number >= 0) count++;
+// }
+// console.log(count);
 
 //---------------------------"While Loop"--------------------------------------
 
-//------------------- 10 to 0 count -----------
+//---------------------------- 10 to 0 count ----------------------------------
 // let i = 10
 // while(i >= 0){
 //     console.log(i)
